@@ -1,0 +1,5 @@
+nivel,comparacion,n_a,n_b,U,p,prob_superioridad,p_holm
+paciente (principal),VP vs FN,46,14,375.0,0.3588,0.582,0.3588
+paciente (principal),VP vs VN,46,260,7960.0,0.0003,0.666,0.0007
+imagen (sensibilidad),VP vs FN,184,56,5721.0,0.2113,0.555,0.2113
+imagen (sensibilidad),VP vs VN,184,1040,117418.0,0.0,0.614,0.0

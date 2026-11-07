@@ -1,0 +1,2 @@
+modelo,n,n_bins,ece,pendiente,intercepto
+efficientnet_b4,371,5,0.0604,0.823,0.033

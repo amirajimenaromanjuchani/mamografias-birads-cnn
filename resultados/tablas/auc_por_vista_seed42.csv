@@ -1,0 +1,16 @@
+arquitectura,vista,auc,ic95_inf,ic95_sup
+resnet50,L-CC,0.647,0.567,0.727
+resnet50,L-MLO,0.606,0.519,0.69
+resnet50,R-CC,0.628,0.538,0.715
+resnet50,R-MLO,0.575,0.489,0.657
+resnet50,4 vistas (primaria),0.755,0.674,0.832
+densenet121,L-CC,0.68,0.592,0.766
+densenet121,L-MLO,0.671,0.584,0.752
+densenet121,R-CC,0.66,0.57,0.748
+densenet121,R-MLO,0.619,0.529,0.703
+densenet121,4 vistas (primaria),0.796,0.719,0.871
+efficientnet_b4,L-CC,0.673,0.589,0.755
+efficientnet_b4,L-MLO,0.626,0.535,0.71
+efficientnet_b4,R-CC,0.673,0.587,0.754
+efficientnet_b4,R-MLO,0.577,0.488,0.659
+efficientnet_b4,4 vistas (primaria),0.818,0.752,0.878

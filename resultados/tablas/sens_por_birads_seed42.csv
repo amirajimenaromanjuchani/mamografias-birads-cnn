@@ -1,0 +1,7 @@
+arquitectura,birads,n,sensibilidad
+resnet50,4,45,0.644
+resnet50,5,15,0.933
+densenet121,4,45,0.733
+densenet121,5,15,0.933
+efficientnet_b4,4,45,0.689
+efficientnet_b4,5,15,1.0
