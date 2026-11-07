@@ -1,0 +1,8 @@
+{
+  "mejor_epoca": 5,
+  "auc_val_mejor": 0.8158602150537635,
+  "epocas_corridas": 15,
+  "segundos": 389.46420645713806,
+  "n_train": 222,
+  "n_val": 74
+}

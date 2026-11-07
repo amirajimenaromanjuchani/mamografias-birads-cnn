@@ -1,0 +1,56 @@
+{
+  "arquitectura": "efficientnet_b4",
+  "pliegue_prueba": 0,
+  "pliegue_validacion": 1,
+  "semilla_particion": 42,
+  "semilla_entrenamiento": 123,
+  "umbral_youden_val": 0.035912905188604224,
+  "ajuste_prior": -1.6422277352570913,
+  "n_test": 75,
+  "n_alta_test": 12,
+  "entrada_hw": [
+    512,
+    384
+  ],
+  "metricas_test": {
+    "auc": 0.7685185185185186,
+    "sens": 0.75,
+    "esp": 0.7301587301587301,
+    "f1": 0.47368421052631576,
+    "brier": 0.1238035746956059
+  },
+  "ic95_bootstrap": {
+    "auc": [
+      0.5992063492063492,
+      0.9087301587301587
+    ],
+    "sens": [
+      0.5,
+      1.0
+    ],
+    "esp": [
+      0.6190476190476191,
+      0.8253968253968254
+    ],
+    "f1": [
+      0.3333333333333333,
+      0.6111111111111112
+    ],
+    "brier": [
+      0.10111368627402183,
+      0.14481872276587382
+    ]
+  },
+  "hiperparametros": {
+    "epocas_max": 100,
+    "paciencia": 10,
+    "optimizador": "adam",
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "batch_size": 8,
+    "lote_pacientes": 2,
+    "fase1_epocas": 3,
+    "lr_cabeza": 0.001,
+    "semilla": 123
+  }
+}

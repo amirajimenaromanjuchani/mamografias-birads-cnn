@@ -1,0 +1,56 @@
+{
+  "arquitectura": "densenet121",
+  "pliegue_prueba": 4,
+  "pliegue_validacion": 0,
+  "semilla_particion": 42,
+  "semilla_entrenamiento": 123,
+  "umbral_youden_val": 0.023353375505088824,
+  "ajuste_prior": -1.6422277352570913,
+  "n_test": 74,
+  "n_alta_test": 12,
+  "entrada_hw": [
+    512,
+    384
+  ],
+  "metricas_test": {
+    "auc": 0.7876344086021505,
+    "sens": 0.75,
+    "esp": 0.7903225806451613,
+    "f1": 0.5294117647058824,
+    "brier": 0.1251335559029974
+  },
+  "ic95_bootstrap": {
+    "auc": [
+      0.6115255376344085,
+      0.9368279569892473
+    ],
+    "sens": [
+      0.5,
+      1.0
+    ],
+    "esp": [
+      0.6774193548387096,
+      0.8870967741935484
+    ],
+    "f1": [
+      0.36363636363636365,
+      0.6875
+    ],
+    "brier": [
+      0.09688789741906535,
+      0.15196540253674495
+    ]
+  },
+  "hiperparametros": {
+    "epocas_max": 100,
+    "paciencia": 10,
+    "optimizador": "adam",
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "batch_size": 8,
+    "lote_pacientes": 2,
+    "fase1_epocas": 3,
+    "lr_cabeza": 0.001,
+    "semilla": 123
+  }
+}
