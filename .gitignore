@@ -1,0 +1,27 @@
+# --- Datos clinicos: NUNCA al repositorio ---
+dataset_final_v1.csv
+*.dcm
+png_2d/
+*.png
+# solo las figuras sueltas de resultados (sin imagenes de mamografias)
+!resultados/figuras/*.png
+
+# --- Pesos y caches (pesan cientos de MB; viven en Drive) ---
+*.pt
+*.pth
+resultados/**/best.pt
+# mapas Grad-CAM por paciente: contienen imagenes de mamografias
+resultados/figuras/gradcam/
+
+# --- Secretos ---
+.env
+*.token
+secrets*
+GITHUB_TOKEN*
+
+# --- Python / Jupyter / sistema ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
